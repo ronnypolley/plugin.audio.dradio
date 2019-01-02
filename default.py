@@ -29,6 +29,7 @@ from xbmc import translatePath
 import xbmcaddon
 from xbmcgui import Dialog, ListItem
 from xbmcplugin import addDirectoryItem, endOfDirectory
+import sys
 
 Addon = xbmcaddon.Addon("plugin.audio.dradio")
 
