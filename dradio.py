@@ -34,7 +34,7 @@ import sys
 Addon = xbmcaddon.Addon("plugin.audio.dradio")
 
 icons = {
-	0: join(Addon.getAddonInfo('path'), 'icon.png'),
+	0: join(Addon.getAddonInfo('path'), 'resources', 'icon.png'),
 	1: join(Addon.getAddonInfo('path'), 'resources', 'media', 'drw.png'),
 	3: join(Addon.getAddonInfo('path'), 'resources', 'media', 'drk.png'),
 	4: join(Addon.getAddonInfo('path'), 'resources', 'media', 'dlf.png'),
