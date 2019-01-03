@@ -2,33 +2,22 @@
 <addon
 	id="plugin.audio.dradio"
 	name="dradio.de"
-	version="1.3.2"
-	provider-name="ronnypolley">
+	version="1.3.1"
+	provider-name="escoand">
 	<requires>
-		<import addon="xbmc.python" version="2.25.0" />
-		<import addon="xbmc.gui" version="5.12.0" />
-		<import addon="xbmc.json" version="7.0.0" />
+		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
-	<extension point="xbmc.python.pluginsource" library="dradio.py">
+	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>audio</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-		<source>https://github.com/ronnypolley/plugin.audio.dradio</source>
+		<source>https://github.com/escoand/plugin.audio.dradio</source>
 		<platform>all</platform>
-		<language>de en</language>
+		<language>de</language>
 		<summary>dradio.de - Listening to the radio, whenever you want</summary>
 		<summary lang="de">dradio.de - Radio hören, wenn Sie Zeit haben</summary>
 		<description>German radio station</description>
 		<description lang="de">Deutscher Radio Sender</description>
-		
-		<assets>
-			<icon>resources/icon.png</icon>
-		</assets>
-		
-		<news>v1.3.2 (TODO)
-		- Made compatible with newer Kodi versions
-		- Fixed wrong URLs of the plugin
-		</news>
 	</extension>
 </addon>
